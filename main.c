@@ -3,13 +3,15 @@
 
 int main()
 {
-    int i;
-    for(i=1;i<=10;i++){
-        if(i==3)continue;
-        if(i==5)break;
-        printf("%d\n",i);
-    }
+    int a=555,*ptr=&a,b;
+    b=*ptr=777;
+    *ptr-=2;
+
+    printf("a:%d --b:%d b:%d ",a,--*&b,*(int*)&b);
 
     return 0;
+
 }
 
+/*
+*/

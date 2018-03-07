@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1520405116 source:d:\installed\codeblocks\mj1_project\main.c
+	<stdio.h>
+	<stdlib.h>
+

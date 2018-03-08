@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#define N 5
 int main()
 {
-    long  double x;
-    int a=555,*ptr;
-    ptr=&a;
-    int b=*ptr=777;
 
-    printf("%d %d %d ",a,--*&b,*(int*)&b);
+    int a=555,*ptr=&a,b;
+    b=*ptr=777;
+    *ptr-=2;
 
+    printf("a:%d --b:%d b:%d ",a,--*&b,*(int*)&b);
 
     return 0;
 

@@ -1,13 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#define N 5
 int main()
 {
-    int a=555,*ptr=&a,b;
-    b=*ptr=777;
-    *ptr-=2;
 
-    printf("a:%d --b:%d b:%d ",a,--*&b,*(int*)&b);
+    float x[N],sum=0;
+    int i;
+    printf("enter %d real numbers \n",N);
+    for(i=0;i<N;i++){
+        scanf("%f",&x[i]);
+        sum+=x[i]*x[i];
+    }
+    printf("\n");
+    for(i=0;i<N;i++){
+        printf("X[%2d] = %2.2f \n",i+1,x[i]);
+    }
+    printf("Total of %d real numbers = %.2f \n",N,sum);
 
     return 0;
 

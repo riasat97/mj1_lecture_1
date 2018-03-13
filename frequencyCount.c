@@ -6,7 +6,6 @@ int initiazlizeArray(int g[],int size){
     for(int i=0;i<size;i++){
         g[i]=0;
     }
-    return g;
 }
 int main()
 {

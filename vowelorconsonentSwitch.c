@@ -1,6 +1,5 @@
 #include <stdio.h>
 //Write a C program to check vowel or consonant using switch-case
-
 char* toLower(char ch) {
 
 	if(ch>='A' && ch<='Z')return ch+32;

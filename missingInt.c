@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define Size 100
 #define Missing 97
-//write a method which will remove any given character from a string ?
+//Find missing number in an array of integer 1 to 100
 
 void initializeArray(int* arr) {
 

@@ -31,7 +31,85 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename="Just-in-time-compiler.txt" />
+		<Unit filename="README.md" />
+		<Unit filename="byte_code_vs_machine_code.txt" />
+		<Unit filename="charRemFromString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="continue_break.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="datatype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fiboPum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="freq_count_for_each_char_of_a_string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="frequencyCount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="import_1.o" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.exe" />
+		<Unit filename="main.o" />
+		<Unit filename="missingInt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="missingInt.exe" />
+		<Unit filename="missingInt.o" />
+		<Unit filename="mj1_project.cbp" />
+		<Unit filename="mj1_project.depend" />
+		<Unit filename="mj1_project.layout" />
+		<Unit filename="mvc.txt" />
+		<Unit filename="out_put_5_enum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_1.1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_1.exe" />
+		<Unit filename="output_1.o" />
+		<Unit filename="output_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_2.o" />
+		<Unit filename="output_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_6_loops.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_6_loops.o" />
+		<Unit filename="output_7_point_confused.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_8_pointer_vejal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="output_circle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="quadraticeqn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tight_vs_loose_coupling.txt" />
+		<Unit filename="twoDarray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vowelorconsonentSwitch.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
